@@ -1,0 +1,30 @@
+class student:
+    count=0
+    def __init__(sno,name,gender,group,result):
+        sno.name=name
+        sno.gender=gender
+        sno.group=group
+        sno.result=result
+        student.count=student.count+1
+    def displaycount(sno):
+        print("name of the student is:",sno.name)
+        print("gender of the student: ",sno.gender)
+        print("group of the student: ",sno.group)
+        print("result of the student: ",sno.result)
+print("student details is: ")
+s1=student("mahesh","male","mca",450)
+s2=student("harika","female","bca",300)
+s1.displaycount()
+s2.displaycount()
+
+output:
+student details is: 
+name of the student is: mahesh
+gender of the student:  male
+group of the student:  mca
+result of the student:  450
+name of the student is: harika
+gender of the student:  female
+group of the student:  bca
+result of the student:  300
+
