@@ -1,0 +1,26 @@
+class employee:
+    count=0
+    def __init__(empno,name,des,salary):
+        empno.name=name
+        empno.des=des
+        empno.salary=salary
+        employee.count=employee.count+1
+    def displaycount(empno):
+        print("name of the employee is: ",empno.name)
+        print("designation of employee: ",empno.des)
+        print("salary of employee: ",empno.salary)
+print("employee details is: ")
+e1=employee("mahesh","manager",20000)
+e2=employee("harika","leader",30000)
+e1.displaycount()
+e2.displaycount()
+
+output:
+employee details is: 
+name of the employee is:  mahesh
+designation of employee:  manager
+salary of employee:  20000
+name of the employee is:  harika
+designation of employee:  leader
+salary of employee:  30000
+
